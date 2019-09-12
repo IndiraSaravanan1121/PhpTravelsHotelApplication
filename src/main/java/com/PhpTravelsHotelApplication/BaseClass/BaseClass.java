@@ -46,7 +46,7 @@ public class BaseClass {
 
 		driver.get(property.getProperty("url")); // get URL from properties file
 		driver.manage().window().maximize();
-	}
+		}
 
 	
 	  // closing browser

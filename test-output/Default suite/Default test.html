@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 11 20:22:32 IST 2019</td>
+<td>Started on:</td><td>Thu Sep 12 15:56:50 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24328 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42700 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails()'><b>getSearchDetails</b><br>Test class: com.PhpTravelsHotelApplication.TestScript.SearchAndFilter<br>Parameters: chennai, 15/09/2019, 20/09/2019</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@class=&apos;select2-input&apos;])[6]&quot;}
+<td title='com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate()'><b>verifyPriceTextUpdate</b><br>Test class: com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select&quot;}
   (Session info: chrome=76.0.3809.132)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
 System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
-*** Element info: {Using=xpath, value=(//input[@class=&apos;select2-input&apos;])[6]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc76536b1b1046eec36e339a97814fdc
+*** Element info: {Using=xpath, value=/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -100,7 +100,7 @@ Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails(SearchAndFilter.java:61)
+	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -126,16 +126,16 @@ Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace823758059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace823758059'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='select2-input'])[6]"}
+</pre></div><a href='#' onClick='toggleBox("stack-trace45416784", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45416784'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select"}
   (Session info: chrome=76.0.3809.132)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
-*** Element info: {Using=xpath, value=(//input[@class='select2-input'])[6]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc76536b1b1046eec36e339a97814fdc
+*** Element info: {Using=xpath, value=/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -151,71 +151,7 @@ Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails(SearchAndFilter.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-	at org.testng.TestRunner.privateRun(TestRunner.java:757)
-	at org.testng.TestRunner.run(TestRunner.java:608)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
-	at org.testng.TestNG.run(TestNG.java:999)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>5</td>
-<td>com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@351d0846</td></tr>
-<tr>
-<td title='com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate()'><b>verifyPriceTextUpdate</b><br>Test class: com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td>
-<td><div><pre>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
-	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
-	at org.openqa.selenium.By.xpath(By.java:92)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:75)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-	at org.testng.TestRunner.privateRun(TestRunner.java:757)
-	at org.testng.TestRunner.run(TestRunner.java:608)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
-	at org.testng.TestNG.run(TestNG.java:999)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace673384643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace673384643'><pre>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
-	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
-	at org.openqa.selenium.By.xpath(By.java:92)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:75)
+	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -243,7 +179,25 @@ Session ID: 9339e5e291c535f65dcdf4e7e25fe3a8
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@351d0846</td></tr>
+<td>com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@77e4c80f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.ValidateDataFilteredorNot()'><b>ValidateDataFilteredorNot</b><br>Test class: com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td>
+<td></td>
+<td>5</td>
+<td>com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@77e4c80f</td></tr>
+<tr>
+<td title='com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails()'><b>getSearchDetails</b><br>Test class: com.PhpTravelsHotelApplication.TestScript.SearchAndFilter<br>Parameters: 15/09/2019, 20/09/2019</td>
+<td></td>
+<td>17</td>
+<td>com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@77e4c80f</td></tr>
 </table><p>
 </body>
 </html>

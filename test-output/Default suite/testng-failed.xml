@@ -7,7 +7,6 @@
         <methods>
           <include name="verifyPriceTextUpdate"/>
           <include name="setup"/>
-          <include name="getSearchDetails" invocation-numbers="0"/>
         </methods>
       </class>
     </classes>
