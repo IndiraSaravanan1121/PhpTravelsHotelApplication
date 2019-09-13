@@ -2,14 +2,14 @@
 <testng-results total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-12T15:56:50Z" name="Default suite" finished-at="2019-09-12T15:57:32Z" duration-ms="42700">
+  <suite started-at="2019-09-13T20:10:30Z" name="Suite" finished-at="2019-09-13T20:11:00Z" duration-ms="30818">
     <groups>
     </groups>
-    <test started-at="2019-09-12T15:56:50Z" name="Default test" finished-at="2019-09-12T15:57:32Z" duration-ms="42700">
+    <test started-at="2019-09-13T20:10:30Z" name="Test" finished-at="2019-09-13T20:11:00Z" duration-ms="30818">
       <class name="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter">
-        <test-method is-config="true" signature="setup()" started-at="2019-09-12T15:56:50Z" name="setup" finished-at="2019-09-12T15:57:07Z" duration-ms="17338" status="PASS">
+        <test-method is-config="true" signature="setup()" started-at="2019-09-13T20:10:30Z" name="setup" finished-at="2019-09-13T20:10:46Z" duration-ms="16236" status="PASS">
         </test-method>
-        <test-method signature="getSearchDetails(java.lang.String, java.lang.String)" started-at="2019-09-12T15:57:09Z" name="getSearchDetails" finished-at="2019-09-12T15:57:27Z" duration-ms="17931" status="PASS">
+        <test-method signature="getSearchDetails(java.lang.String, java.lang.String)" started-at="2019-09-13T20:10:48Z" name="getSearchDetails" finished-at="2019-09-13T20:10:55Z" duration-ms="6648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
             </param>
           </params>
         </test-method>
-        <test-method signature="verifyPriceTextUpdate()" started-at="2019-09-12T15:57:27Z" name="verifyPriceTextUpdate" finished-at="2019-09-12T15:57:27Z" duration-ms="168" status="FAIL">
+        <test-method signature="verifyPriceTextUpdate()" started-at="2019-09-13T20:10:55Z" name="verifyPriceTextUpdate" finished-at="2019-09-13T20:10:55Z" duration-ms="106" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select"}
@@ -32,8 +32,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bc76536b1b1046eec36e339a97814fdc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 751da41d5d588c2185c7d5d7d98bc392
 *** Element info: {Using=xpath, value=/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select}]]>
             </message>
             <full-stacktrace>
@@ -43,8 +43,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bc76536b1b1046eec36e339a97814fdc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 751da41d5d588c2185c7d5d7d98bc392
 *** Element info: {Using=xpath, value=/html/body/nav/div/div[2]/ul[2]/ul/li[2]/select}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -61,7 +61,8 @@ Session ID: bc76536b1b1046eec36e339a97814fdc
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:68)
+	at com.PhpTravelsHotelApplication.pages.PhpTravelsValidationPage.clickPriceText(PhpTravelsValidationPage.java:43)
+	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,7 +92,9 @@ Session ID: bc76536b1b1046eec36e339a97814fdc
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method signature="ValidateDataFilteredorNot()" started-at="2019-09-12T15:57:27Z" name="ValidateDataFilteredorNot" finished-at="2019-09-12T15:57:32Z" duration-ms="5197" status="PASS">
+        <test-method signature="ValidateDataFilteredorNot()" started-at="2019-09-13T20:10:55Z" name="ValidateDataFilteredorNot" finished-at="2019-09-13T20:10:56Z" duration-ms="996" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="close()" started-at="2019-09-13T20:10:56Z" name="close" finished-at="2019-09-13T20:11:00Z" duration-ms="4663" status="PASS">
         </test-method>
       </class>
     </test>

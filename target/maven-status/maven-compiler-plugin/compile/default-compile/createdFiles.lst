@@ -1,4 +1,12 @@
-com\PhpTravelsHotelApplication\UtilsClass\UtilsClass.class
-com\PhpTravelsHotelApplication\BaseClass\BaseClass.class
+com\PhpTravelsHotelApplication\HelperClass\Enter.class
 com\PhpTravelsHotelApplication\Constants\Constants.class
-com\PhpTravelsHotelApplication\HelperClass\HelperClass.class
+com\PhpTravelsHotelApplication\Report\Report.class
+com\PhpTravelsHotelApplication\pages\ValidationPriceList.class
+com\PhpTravelsHotelApplication\pages\ValidatePriceType.class
+com\PhpTravelsHotelApplication\HelperClass\Scrolling.class
+com\PhpTravelsHotelApplication\pages\PhpTravelsValidationPage.class
+com\PhpTravelsHotelApplication\HelperClass\properties.class
+com\PhpTravelsHotelApplication\UtilsClass\ExcelUtils.class
+com\PhpTravelsHotelApplication\pages\PhpTravelsHomePage.class
+com\PhpTravelsHotelApplication\BaseClass\BaseClass.class
+com\PhpTravelsHotelApplication\HelperClass\Wait.class

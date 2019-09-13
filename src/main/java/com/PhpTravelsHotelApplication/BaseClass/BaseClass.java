@@ -1,6 +1,7 @@
 package com.PhpTravelsHotelApplication.BaseClass;
 
 import java.io.FileInputStream;
+
 import java.io.IOException;
 import java.util.Properties;
 
@@ -16,7 +17,7 @@ import com.PhpTravelsHotelApplication.Constants.Constants;
 public class BaseClass {
 
 	protected static WebDriver driver;
-	public Properties property;
+	public static Properties property;
 	public FileInputStream fis;
 
 	@BeforeTest
@@ -38,7 +39,7 @@ public class BaseClass {
 			driver = new FirefoxDriver(); // create new instance for firefox driver
 			break;
 
-		case "IE":
+		case "IEDriver":
 			System.setProperty("webdriver.gecko.driver", Constants.iedriver_path);
 			driver = new InternetExplorerDriver(); // create new instance for ie driver
 			break;
@@ -46,12 +47,12 @@ public class BaseClass {
 
 		driver.get(property.getProperty("url")); // get URL from properties file
 		driver.manage().window().maximize();
-		}
+	}
 
-	
-	  // closing browser
-	  
-	 //@AfterTest public void close() { driver.close(); }
-	 
+	// closing browser
+	@AfterTest
+	public void close() {
+		driver.close();
+	}
 
 }

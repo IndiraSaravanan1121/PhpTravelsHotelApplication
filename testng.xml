@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+      <class name="com.PhpTravelsHotelApplication.TestScript.VerifyPriceListUpdate"/>
       <class name="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter"/>
+      <class name="com.PhpTravelsHotelApplication.TestScript.VerifyPriceTextUpdate"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+ </suite> 
