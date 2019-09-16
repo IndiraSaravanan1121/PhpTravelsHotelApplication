@@ -10,14 +10,13 @@ import org.openqa.selenium.WebElement;
 import com.PhpTravelsHotelApplication.Constants.Constants;
 
 public class PhpTravelsHomePage {
-	
-	static FileInputStream fis; 
-	private static Properties property=new Properties();
+
+	static FileInputStream fis;
+	private static Properties property = new Properties();
 	private static WebElement element;
 
-	
 	public static WebElement seacrhHotel(WebDriver driver) throws Exception {
-		fis =new FileInputStream(Constants.location_path);
+		fis = new FileInputStream(Constants.location_path);
 		property.load(fis);
 		element = driver.findElement(By.xpath(property.getProperty("loc_hotel_btn")));
 		return element;

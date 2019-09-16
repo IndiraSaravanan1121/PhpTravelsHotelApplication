@@ -19,8 +19,7 @@ public class ValidatePriceType {
 	public static void validatePriceType(WebDriver driver) throws Exception {
 		fis = new FileInputStream(Constants.location_path);
 		property.load(fis);
-		String element = driver.findElement(By.xpath(property.getProperty("loc_currencytypecheck_txt"))).getText();
-		Assert.assertEquals("INR", element);
-
+		WebElement element = driver.findElement(By.xpath(property.getProperty("loc_currencytypecheck_txt")));
+        Assert.assertTrue(((Properties) element).contains("INR"),"Not Matched..");
 	}
 }

@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,8 +14,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.PhpTravelsHotelApplication.Constants.Constants;
+import com.PhpTravelsHotelApplication.Report.Report;
 
 public class BaseClass {
+	
+	protected Report log =new Report();
 
 	protected static WebDriver driver;
 	public static Properties property;
@@ -45,14 +49,21 @@ public class BaseClass {
 			break;
 		}
 
-		driver.get(property.getProperty("url")); // get URL from properties file
+		log.LogReport("Browser Started....");
+		
+		//pass application URL
+		driver.get(property.getProperty("url")); 
+		
+		//maximize the window
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 	}
 
 	// closing browser
 	@AfterTest
 	public void close() {
 		driver.close();
+		log.LogReport("Browser Closed....");
 	}
 
 }

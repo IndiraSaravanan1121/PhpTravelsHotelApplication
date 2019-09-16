@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="com.PhpTravelsHotelApplication.TestScript.VerifyPriceListUpdate"/>
-      <class name="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter"/>
-      <class name="com.PhpTravelsHotelApplication.TestScript.VerifyPriceTextUpdate"/>
-    </classes>
-  </test>
- </suite> 
+	<suite-files>
+		<suite-file
+			path="C:\Users\indira.saravanan\eclipse-workspace\PhpTravelsHotelApplication\src\main\resources\SuiteFile\SearchAndFilter.xml" />
+	</suite-files>
+</suite>
+
