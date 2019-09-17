@@ -1,41 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 61.73 s <<< FAILURE! - in TestSuite
-getSearchDetails(com.PhpTravelsHotelApplication.TestScript.SearchAndFilter)  Time elapsed: 11.853 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails(SearchAndFilter.java:43)
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 4.055 s <<< FAILURE! - in TestSuite
+tearDown(com.PhpTravelsHotelApplication.TestScript.SearchAndFilter)  Time elapsed: 2.981 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
 
-verifyPriceTextUpdate(com.PhpTravelsHotelApplication.TestScript.SearchAndFilter)  Time elapsed: 10.451 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"loc_clickinr_btn"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=loc_clickinr_btn}
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:57)
-
-ValidateDataFilteredorNot(com.PhpTravelsHotelApplication.TestScript.SearchAndFilter)  Time elapsed: 11.054 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="priceOrderDes"]"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=//*[@id="priceOrderDes"]}
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.ValidateDataFilteredorNot(SearchAndFilter.java:67)
 

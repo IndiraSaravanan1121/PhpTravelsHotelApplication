@@ -13,48 +13,33 @@ import com.PhpTravelsHotelApplication.HelperClass.properties;
 
 /**
  * Php travels Validation page
+ * 
  * @author indira.saravanan
- *
  */
 
 public class PhpTravelsValidationPage extends BaseClass {
 
-	static FileInputStream fis;
-	static Properties property = new Properties();
-	
 	public static WebElement clickCurrency(WebDriver driver) throws Exception {
-
-		fis = new FileInputStream(Constants.location_path);
-		property.load(fis);
+		properties.property(Constants.location_path);
 		WebElement element = driver.findElement(By.xpath(property.getProperty("loc_currencytxt_btn")));
 		return element;
-
 	}
 
 	public static WebElement clickHightoLow(WebDriver driver) throws Exception {
-
-		fis = new FileInputStream(Constants.location_path);
-		property.load(fis);
-
+		properties.property(Constants.location_path);
 		WebElement element = driver.findElement(By.xpath(property.getProperty("loc_hightolow_radio_btn")));
-		return element;
-
+    	return element;
 	}
 
 	public static WebElement clickLowtoHigh(WebDriver driver) throws Exception {
-		fis = new FileInputStream(Constants.location_path);
-		property.load(fis);
+		properties.property(Constants.location_path);
 		WebElement element = driver.findElement(By.xpath(property.getProperty("loc_lowtohigh_radio_btn")));
 		return element;
-
 	}
 
 	public static WebElement clickPriceText(WebDriver driver) throws Exception {
-		fis = new FileInputStream(Constants.location_path);
-		property.load(fis);
+		properties.property(Constants.location_path);;
 		WebElement element = driver.findElement(By.xpath(property.getProperty("loc_currencytxt_btn")));
 		return element;
-
 	}
-
 }

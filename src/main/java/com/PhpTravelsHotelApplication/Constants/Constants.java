@@ -10,6 +10,7 @@ public class Constants {
 	public final static String firefox_path="./drivers/geckodriver.exe";
 	public final static String iedriver_path="./drivers/IEDriverServer.exe";
 	public final static String log_path="./log4j.properties";
+	public final static String extent_path="./extent-config.xml";
 	
 
 }

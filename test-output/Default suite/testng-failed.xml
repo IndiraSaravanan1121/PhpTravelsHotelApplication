@@ -8,6 +8,8 @@
           <include name="verifyPriceTextUpdate"/>
           <include name="setup"/>
           <include name="close"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.PhpTravelsHotelApplication.TestScript.SearchAndFilter -->
     </classes>

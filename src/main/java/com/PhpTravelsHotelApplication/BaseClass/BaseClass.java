@@ -56,7 +56,7 @@ public class BaseClass {
 		
 		//maximize the window
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS) ;
 	}
 
 	// closing browser

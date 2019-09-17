@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites, 3 failed tests</span>
+      <span class="top-banner-font-1">2 suites</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite__0_" class="navigator-link">
-              <span class="suite-name border-failed">Suite (0)</span>
+              <span class="suite-name border-skipped">Suite (0)</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,31 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite__0_" class="hide-methods failed suite-Suite__0_"> (hide)</a> <!-- hide-methods failed suite-Suite__0_ -->
-                      <a href="#" panel-name="suite-Suite__0_" class="show-methods failed suite-Suite__0_"> (show)</a> <!-- show-methods failed suite-Suite__0_ -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite__0_" class="hide-methods skipped suite-Suite__0_"> (hide)</a> <!-- hide-methods skipped suite-Suite__0_ -->
+                      <a href="#" panel-name="suite-Suite__0_" class="show-methods skipped suite-Suite__0_"> (show)</a> <!-- show-methods skipped suite-Suite__0_ -->
                     </span>
-                    <div class="method-list-content failed suite-Suite__0_">
+                    <div class="method-list-content skipped suite-Suite__0_">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite__0_" title="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter" class="method navigator-link" hash-for-method="ValidateDataFilteredorNot">ValidateDataFilteredorNot</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite__0_" title="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter" class="method navigator-link" hash-for-method="getSearchDetails">getSearchDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite__0_" title="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter" class="method navigator-link" hash-for-method="getSearchDetails(17/09/2019, 20/09/2019)">getSearchDetails(17/09/2019, 20/09/2019)</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite__0_" title="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter" class="method navigator-link" hash-for-method="validateDataFilteredorNot">validateDataFilteredorNot</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite__0_" title="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter" class="method navigator-link" hash-for-method="verifyPriceTextUpdate">verifyPriceTextUpdate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite__0_ -->
+                    </div> <!-- method-list-content skipped suite-Suite__0_ -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -129,67 +129,41 @@
         <div panel-name="suite-Suite" class="panel Suite">
         </div> <!-- panel Suite -->
         <div panel-name="suite-Suite__0_" class="panel Suite__0_">
-          <div class="suite-Suite__0_-class-failed">
+          <div class="suite-Suite__0_-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateDataFilteredorNot">
-                  </a> <!-- ValidateDataFilteredorNot -->
-                  <span class="method-name">ValidateDataFilteredorNot</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;priceOrderDes&quot;]&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=//*[@id=&quot;priceOrderDes&quot;]}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.pages.PhpTravelsValidationPage.clickHightoLow(PhpTravelsValidationPage.java:39)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.ValidateDataFilteredorNot(SearchAndFilter.java:67)
+                  <a name="getSearchDetails">
+                  </a> <!-- getSearchDetails -->
+                  <span class="method-name">getSearchDetails</span>
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getSearchDetails(17/09/2019, 20/09/2019)">
-                  </a> <!-- getSearchDetails(17/09/2019, 20/09/2019) -->
-                  <span class="method-name">getSearchDetails</span>
-                  <span class="parameters">(17/09/2019, 20/09/2019)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails(SearchAndFilter.java:43)
+                  <a name="validateDataFilteredorNot">
+                  </a> <!-- validateDataFilteredorNot -->
+                  <span class="method-name">validateDataFilteredorNot</span>
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -198,33 +172,19 @@ Session ID: 13a7152cf6f4b0bbd0139812cea33052
                   <a name="verifyPriceTextUpdate">
                   </a> <!-- verifyPriceTextUpdate -->
                   <span class="method-name">verifyPriceTextUpdate</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;loc_clickinr_btn&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=loc_clickinr_btn}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:57)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite__0_-class-failed -->
+          </div> <!-- suite-Suite__0_-class-skipped -->
         </div> <!-- panel Suite__0_ -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -336,22 +296,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getSearchDetails')
+data.setCell(0, 1, 'verifyPriceTextUpdate')
 data.setCell(0, 2, 'com.PhpTravelsHotelApplication.TestScript.SearchAndFilter')
-data.setCell(0, 3, 11829);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidateDataFilteredorNot')
+data.setCell(1, 1, 'getSearchDetails')
 data.setCell(1, 2, 'com.PhpTravelsHotelApplication.TestScript.SearchAndFilter')
-data.setCell(1, 3, 11068);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyPriceTextUpdate')
+data.setCell(2, 1, 'validateDataFilteredorNot')
 data.setCell(2, 2, 'com.PhpTravelsHotelApplication.TestScript.SearchAndFilter')
-data.setCell(2, 3, 10429);
+data.setCell(2, 3, 0);
 window.suiteTableData['Suite__0_']= { tableData: data, tableDiv: 'times-div-Suite__0_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite__0_">
               </div> <!-- times-div-Suite__0_ -->
             </div> <!-- times-div -->
@@ -399,32 +359,44 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name={null} status=CREATED method=SearchAndFilter.getSearchDetails(java.lang.String, jav...)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getSearchDetails(17/09/2019, 20/09/2019)</span>
-                <span class="method-start">21245 ms</span>
+                <span class="method-name">getSearchDetails</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyPriceTextUpdate</span>
-                <span class="method-start">33107 ms</span>
+                <span class="method-start">93 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">ValidateDataFilteredorNot</span>
-                <span class="method-start">43539 ms</span>
+                <span class="method-name">validateDataFilteredorNot</span>
+                <span class="method-start">97 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">54610 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

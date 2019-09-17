@@ -10,72 +10,46 @@
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
 <tr><th colspan="7">Suite (0)</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">59,516</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">1,569</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td><td><a href="#m0">ValidateDataFilteredorNot</a></td><td rowspan="1">1568635844282</td><td rowspan="1">11068</td></tr><tr class="failedeven"><td><a href="#m1">getSearchDetails</a></td><td rowspan="1">1568635821988</td><td rowspan="1">11829</td></tr><tr class="failedeven"><td><a href="#m2">verifyPriceTextUpdate</a></td><td rowspan="1">1568635833850</td><td rowspan="1">10429</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1568726957899</td><td rowspan="1">15</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td><td><a href="#m1">endReport</a></td><td rowspan="3">1568726957998</td><td rowspan="3">-1568726957998</td></tr><tr class="skippedeven"><td><a href="#m2">endReport</a></td></tr><tr class="skippedeven"><td><a href="#m3">endReport</a></td></tr><tr class="skippedeven"><td><a href="#m4">tearDown</a></td><td rowspan="2">1568726957991</td><td rowspan="2">-1568726957991</td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter</td><td><a href="#m6">getSearchDetails</a></td><td rowspan="1">1568726957930</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">validateDataFilteredorNot</a></td><td rowspan="1">1568726957996</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">verifyPriceTextUpdate</a></td><td rowspan="1">1568726957992</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#ValidateDataFilteredorNot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;priceOrderDes&quot;]&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=//*[@id=&quot;priceOrderDes&quot;]}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.pages.PhpTravelsValidationPage.clickHightoLow(PhpTravelsValidationPage.java:39)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.ValidateDataFilteredorNot(SearchAndFilter.java:67)
+<h2>Test</h2><h3 id="m0">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name={null} status=CREATED method=SearchAndFilter.getSearchDetails(java.lang.String, java.lang.String)[pri:0, instance:com.PhpTravelsHotelApplication.TestScript.SearchAndFilter@5d47c63f] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#getSearchDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>17/09/2019</td><td>20/09/2019</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.getSearchDetails(SearchAndFilter.java:43)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#endReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#endReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#endReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#getSearchDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#verifyPriceTextUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;loc_clickinr_btn&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;ATMECSINDT-083&apos;, ip: &apos;50.50.50.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13a7152cf6f4b0bbd0139812cea33052
-*** Element info: {Using=xpath, value=loc_clickinr_btn}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at com.PhpTravelsHotelApplication.TestScript.SearchAndFilter.verifyPriceTextUpdate(SearchAndFilter.java:57)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#validateDataFilteredorNot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.PhpTravelsHotelApplication.TestScript.SearchAndFilter#verifyPriceTextUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+	driver cannot be resolved to a variable
+
+	at com.PhpTravelsHotelApplication.Report.ExtendReport.tearDown(ExtendReport.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

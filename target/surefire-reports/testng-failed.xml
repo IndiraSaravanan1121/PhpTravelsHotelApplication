@@ -6,10 +6,10 @@
       <class name="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter">
         <methods>
           <include name="verifyPriceTextUpdate"/>
-          <include name="setup"/>
-          <include name="close"/>
-          <include name="ValidateDataFilteredorNot"/>
-          <include name="getSearchDetails" invocation-numbers="0"/>
+          <include name="validateDataFilteredorNot"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="getSearchDetails"/>
         </methods>
       </class> <!-- com.PhpTravelsHotelApplication.TestScript.SearchAndFilter -->
     </classes>
