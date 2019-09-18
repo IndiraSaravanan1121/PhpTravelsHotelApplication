@@ -1,7 +1,6 @@
 package com.PhpTravelsHotelApplication.BaseClass;
 
 import java.io.FileInputStream;
-
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -10,17 +9,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.PhpTravelsHotelApplication.Constants.Constants;
+import com.PhpTravelsHotelApplication.Report.ExtendReport;
 import com.PhpTravelsHotelApplication.Report.Report;
+import com.aventstack.extentreports.Status;
 
-public class BaseClass {
+public class BaseClass extends ExtendReport {
 	
 	protected Report log =new Report();
 
-	protected static WebDriver driver;
+	
 	public static Properties property;
 	public FileInputStream fis;
 
@@ -60,10 +60,13 @@ public class BaseClass {
 	}
 
 	// closing browser
-	@AfterTest
-	public void close() {
-		driver.close();
-		log.LogReport("Browser Closed....");
-	}
+	
+	/*
+	 * @AfterTest public void close() { driver.close();
+	 * log.LogReport("Browser Closed....");
+	 * 
+	 * }
+	 */
+	 
 
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="verifyPriceTextUpdate"/>
           <include name="setup"/>
-          <include name="close"/>
+          <include name="startreport"/>
           <include name="endReport"/>
           <include name="tearDown"/>
         </methods>

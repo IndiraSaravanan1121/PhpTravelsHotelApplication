@@ -6,6 +6,7 @@
       <class name="com.PhpTravelsHotelApplication.TestScript.SearchAndFilter">
         <methods>
           <include name="verifyPriceTextUpdate"/>
+          <include name="setup"/>
           <include name="validateDataFilteredorNot"/>
           <include name="endReport"/>
           <include name="tearDown"/>

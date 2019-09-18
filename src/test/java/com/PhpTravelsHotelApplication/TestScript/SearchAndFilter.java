@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.PhpTravelsHotelApplication.BaseClass.BaseClass;
 import com.PhpTravelsHotelApplication.Constants.Constants;
 import com.PhpTravelsHotelApplication.HelperClass.ActionClass;
 import com.PhpTravelsHotelApplication.HelperClass.Scrolling;
@@ -17,6 +18,8 @@ import com.PhpTravelsHotelApplication.pages.PhpTravelsHomePage;
 import com.PhpTravelsHotelApplication.pages.PhpTravelsValidationPage;
 import com.PhpTravelsHotelApplication.pages.ValidatePriceType;
 import com.PhpTravelsHotelApplication.pages.ValidationPriceList;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.PhpTravelsHotelApplication.Report.ExtendReport;
 
 /**
@@ -25,7 +28,7 @@ import com.PhpTravelsHotelApplication.Report.ExtendReport;
  * @author indira.saravanan
  */
 
-public class SearchAndFilter extends ExtendReport {
+public class SearchAndFilter extends BaseClass {
 
 	Report log = new Report();
 
@@ -38,13 +41,16 @@ public class SearchAndFilter extends ExtendReport {
 
 	// To search hotel
 	@Test(dataProvider = "searchDetails", priority = 0)
-	public void getSearchDetails(String CheckIn, String CheckOut) throws Exception {
+	public void searchHotel(String CheckIn, String CheckOut) throws Exception {
+		test=extent.createTest("searchHotel");
+		
 		PhpTravelsHomePage.seacrhHotel(driver).click();
 		ActionClass.actionTab();
 		ActionClass.actionTab();
 		ActionClass.actionTab();
 		ActionClass.actionTab();
 		ActionClass.sendKeys("chennai");
+		test.log(Status.INFO, "location is selected");
 	    Thread.sleep(2000);
 	    ActionClass.actionTab();
 		PhpTravelsHomePage.checkIn(driver).sendKeys(CheckIn);// sending checkin date from excel
@@ -52,7 +58,7 @@ public class SearchAndFilter extends ExtendReport {
 		PhpTravelsHomePage.checkOut(driver).sendKeys(CheckOut);// sending checkout date from excel
 		ActionClass.actionTab();
 		PhpTravelsHomePage.searchButton(driver).click();// To click search button
-		test=extent.createTest("getSearchDetails");
+		
 
 	}
 
@@ -60,12 +66,12 @@ public class SearchAndFilter extends ExtendReport {
 	@Test(priority = 1)
 	public void verifyPriceTextUpdate() throws Exception {
 		test=extent.createTest("verifyPriceTextUpdate");
+		
 		fis = new FileInputStream(Constants.location_path);
 		property.load(fis);
 		WebElement currency = PhpTravelsValidationPage.clickCurrency(driver);
 		ActionClass.mouseOver(currency);
 		driver.findElement(By.xpath(property.getProperty("loc_clickinr_btn"))).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		ValidatePriceType.validatePriceType(driver);
 		log.LogReport("Currency type changed...");
 	}
